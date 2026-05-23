@@ -14,7 +14,7 @@ pipeline {
                         rm scraper/.env || true
                         rm frontend/.env || true
                         echo "API_KEY=${GOOGLE_PLACES_API_KEY}" >> scraper/.env
-                        echo "VITE_API_URL=${SCRAPER_BACKEND_URL}" >> scraper/.env
+                        echo "VITE_API_URL=${SCRAPER_BACKEND_URL}" >> frontend/.env
                         """
                     }
                 }
