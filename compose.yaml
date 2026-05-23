@@ -1,0 +1,19 @@
+services:
+  frontend:
+    build: frontend/.
+    ports:
+      - "8000:8000"
+    restart: always
+  api:
+    build: api/.
+    restart: always
+    ports:
+      - "8001:8001"
+    volumes:
+      - database:/database
+  scraper:
+    build: scraper/.
+    volumes:
+      - database:/database
+volumes:
+  database:

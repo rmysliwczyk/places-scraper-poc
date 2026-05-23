@@ -1,0 +1,109 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	font-family: sans-serif;
+	color: #333333;
+	background-color: #fefae0;
+}
+
+ul {
+	list-style-type: none;
+}
+
+.navbar {
+	background-color: #ccd5ae;
+}
+
+.navbar ul {
+	display: flex;
+	flex-direction: row;
+	gap: 10px;
+}
+
+.navbar ul li {
+	padding: 10px;
+	cursor: pointer;
+}
+
+.navbar ul li:hover {
+	background-color: #e9edc9;
+}
+
+.main-content {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+	margin-top: 10px;
+}
+
+.main-content li {
+	cursor: pointer;
+}
+
+.place-list {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+	margin: 0px 5px;
+	max-width: 100vw;
+	width: 600px;
+}
+
+.place-list-item {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	gap: 2px;
+
+	padding: 10px;
+	
+	background-color: #e9edc9;
+	border-radius: 5px;
+}
+
+.place-list-item:hover {
+	background-color: #f4f6e4;
+}
+
+.place-list-item .place-name {
+	flex: 2;
+}
+
+.place-list-item .place-district {
+	flex: 2;
+}
+
+.place-list-item .place-rating {
+	flex: 1;
+}
+
+.search-inputs {
+	display: flex;
+	max-width: 100vw;
+	gap: 5px;
+}
+
+.place-details {
+	display: flex;
+	flex-direction: column;
+	background-color: #e9edc9;
+	margin: 5px;
+	padding: 10px;
+	border-radius: 5px;
+	max-width: 100vw;
+	gap: 10px;
+}
+
+.place-detail {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+input, button{
+	height: 30%;
+	width: 100%;
+}
