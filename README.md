@@ -1,6 +1,11 @@
 # Places Scraper POC
 This is a POC of a project that contains three components: scraper, backend, and frontend. It is very simple at the moment. No LLM's were used for this project.
 
+## 👉 Try it!
+Self hosted here:
+- [Frontend](https://scraper.mysliwczykrafal.pl)
+- [Backend](https://api.scraper.mysliwczykrafal.pl/docs)
+
 ## 📥 Deployment
 If you wish to deploy the app yourself follow these steps:
 
